@@ -30,7 +30,7 @@ else{
     ?>
     <div class="container">
 
-    <form action="../backend/add.php" method="post">
+    <form class="note_hide" action="../backend/add.php" method="post">
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Title</label>
             <input type="text" class="form-control" name="title" id="title_id" placeholder="">

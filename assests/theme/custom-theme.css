@@ -6,7 +6,7 @@
  
 padding: 10px;
     border: 1px solid rgba(155, 155, 155, 0.726);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .title_note{
     border-bottom: 1px solid rgba(141, 141, 141, 0.788);
@@ -23,4 +23,34 @@ padding: 10px;
     position:absolute;                 
     bottom:0;                         
     left:0; 
+}
+.ac_name{
+    margin-top: 3px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 5px;
+    transition: 0.1s;
+}
+.ac_name:hover{
+    border: 2px solid red;
+}
+.kp_logo_text{
+    font-size:34px;font-family: monospace;
+    /* border-bottom: 3px solid rgb(155, 153, 153); */
+}
+.note_hide{
+    display: none;
+}
+.note_show{
+    display: none;
+}
+
+@media screen and(max-width:640px) {
+    .ac_name{
+        border: none;
+    }
+    
 }
